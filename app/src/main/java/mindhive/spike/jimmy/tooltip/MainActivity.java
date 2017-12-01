@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.show_toast).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                MHToolTip.getInstance(getApplicationContext())
-                        .show(new Point(500,500),
+                MHToolTip.getInstance()
+                        .show(getApplicationContext(),new Point(500,500),
                                 "Hello World",
                                 Color.parseColor("#ffffff"),
                                 Color.parseColor("#000000"),
