@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_vertical">7dp</dimen>
+    <dimen name="padding_horizontal">10dp</dimen>
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="arrow_height">7dp</dimen>
+    <dimen name="text_size">13sp</dimen>
+    <dimen name="arrow_base">5dp</dimen>
+    <dimen name="margin">20dp</dimen>
+</resources>

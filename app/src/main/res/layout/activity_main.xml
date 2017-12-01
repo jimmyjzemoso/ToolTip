@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:id="@+id/parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFBFBF"
+    tools:context="mindhive.spike.jimmy.tooltip.MainActivity">
+    <TextView
+        android:id="@+id/show_toast"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Show Toast"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Next Activity"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/colorAccent"/>
+
+    <!--<mindhive.spike.jimmy.tooltip.CustomToolTip-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:padding="10dp"-->
+        <!--app:toolTipArrowPositionUp="true"-->
+        <!--app:toolTipArrowPosX="200dp"-->
+        <!--app:toolTipBgColor="@color/colorMilkyWhite"-->
+        <!--app:toolTipText="This is some text This is some text This is some text This is some text This is some text This is some text This is some text"/>-->
+
+
+</LinearLayout>

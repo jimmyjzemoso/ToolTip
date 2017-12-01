@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomToolTip">
+        <attr name="toolTipText" format="string"/>
+        <attr name="toolTipArrowPositionUp" format="boolean"/>
+        <attr name="toolTipArrowPosX" format="dimension"/>
+        <attr name="toolTipBgColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="CustomToast">
+        <attr name="text" format="string"/>
+        <attr name="x_pos_of_Arrow" format="integer"/>
+        <attr name="y_pos_of_Arrow" format="integer"/>
+        <attr name="inverted" format="boolean"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="padding" format="integer"/>
+        <attr name="margin" format="integer"/>
+    </declare-styleable>
+</resources>
